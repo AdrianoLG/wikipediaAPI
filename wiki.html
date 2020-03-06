@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WikiAdri</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Nanum+Gothic|Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p class="logo">WikiAdri</p>
+        <div>
+          <label for="query">Query</label>
+          <input id="query" type="text" name="query" autofocus>
+          <button onclick="retrieveData()">Give me the article</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1></h1>
+      <article id="wiki"></article>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="js/functions.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+  </body>
+</html>
